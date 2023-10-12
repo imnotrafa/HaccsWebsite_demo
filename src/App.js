@@ -11,7 +11,6 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <NavBar />
-        <img src={logo} className="App-logo" alt="logo" />
         <div id="page-body">
           <Routes>
             <Route path="/" element={<Home />} />
