@@ -4,7 +4,7 @@ import NavBar from "./Navbar";
 import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import Eboard from "./Pages/Eboard";
-import "./App.css";
+import main from "./App.css";
 
 function App() {
   return (
@@ -12,11 +12,13 @@ function App() {
       <div className="App">
         <NavBar />
         <div id="page-body">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/eboard" element={<Eboard />} />
-          </Routes>
+          <div>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/events" element={<Events />} />
+              <Route path="/eboard" element={<Eboard />} />
+            </Routes>
+          </div>
         </div>
       </div>
     </BrowserRouter>
