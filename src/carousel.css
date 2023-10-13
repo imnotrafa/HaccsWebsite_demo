@@ -6,9 +6,11 @@
   padding: 10px 5px;
   text-align: center;
 }
-
-.btnCtrl
+.alice-carousel__dots-item:not(.__custom)
 {
-    font-style:48px;
-
+    background-color: #fff;
 }
+
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
+    background-color: #ff6600;
+  }

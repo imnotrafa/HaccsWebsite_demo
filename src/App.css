@@ -1,12 +1,10 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-.App {
-=======
 .App{
->>>>>>> 0677d7cfee9c8721e56ed1b6ee07531698b3edcb
   text-align: center;
   background-color: antiquewhite;
+  font-family: 'Lato', sans-serif;
   
 }
 
@@ -15,7 +13,6 @@
   
 }
 
-<<<<<<< HEAD
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -72,6 +69,7 @@
   padding-top: 0px;
   padding-bottom: 0px;
   display: inline-flex;
+  font-family: 'Lato', sans-serif;
 }
 
 .bullets {
@@ -114,6 +112,7 @@
 .contact{
   display: flex;
   align-items: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .contact-logo{
@@ -131,6 +130,7 @@
 }
 
 .contact h3 p{
+  font-family: 'Lato', sans-serif;
 }
 
 .haccs {
@@ -150,5 +150,3 @@
   padding: 8px;
   align-items: self-end;
 }
-=======
->>>>>>> 0677d7cfee9c8721e56ed1b6ee07531698b3edcb

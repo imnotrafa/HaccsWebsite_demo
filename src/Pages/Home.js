@@ -68,9 +68,6 @@ const HomePage = () => {
           <p> Discord Instagram</p>
         </div>
       </div>
-      <div className="footer">
-        <p>NJIT HACCS 2023</p>
-      </div>
     </>
   );
 };

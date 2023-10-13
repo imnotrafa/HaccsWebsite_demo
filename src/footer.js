@@ -1,10 +1,14 @@
 import React from "react";
+import "./footer.css";
 
 const footer = () => {
-    return <>
-    
-        <h1>This is a Footer</h1>
+  return (
+    <>
+      <div className="footer">
+        <h8>Copyright © NJIT HACCS 2023</h8>
+      </div>
     </>
+  );
 };
 
-export default footer
+export default footer;
