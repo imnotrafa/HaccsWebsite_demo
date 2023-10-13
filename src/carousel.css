@@ -1,0 +1,14 @@
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.btnCtrl
+{
+    font-style:48px;
+
+}

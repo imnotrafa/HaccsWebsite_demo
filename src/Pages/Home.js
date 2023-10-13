@@ -1,5 +1,78 @@
+import logo from "../HACCS_Logo.png";
+import DanielWin from "../CarouselPics/DanielWin.JPG";
+import Lim_Pres from "../CarouselPics/Lim_Pres.jpg";
+import firstGBMFall from "../CarouselPics/firstGBMFall.jpg";
+import InvolvementFair from "../CarouselPics/InvolvementFair.jpg";
+import AliceCarousel from "react-alice-carousel";
+import KeyboardDoubleArrowRightRounded from "@mui/icons-material/KeyboardDoubleArrowRightRounded";
+import KeyboardDoubleArrowLeftRounded from "@mui/icons-material/KeyboardDoubleArrowLeftRounded";
+import "react-alice-carousel/lib/alice-carousel.css";
+import "../carousel.css";
+
 const HomePage = () => {
-  return <h1>This is the homepage!</h1>;
+  return (
+    <>
+      <div className="App">
+        <AliceCarousel
+          renderPrevButton={() => {
+            return (
+              <KeyboardDoubleArrowLeftRounded style={{ fontSize: "48px" }} />
+            );
+          }}
+          renderNextButton={() => {
+            return (
+              <KeyboardDoubleArrowRightRounded style={{ fontSize: "48px" }} />
+            );
+          }}
+          animationType="slide"
+          keyboardNavigation="true"
+          mouseTracking="true"
+          infinite="true"
+          autoPlay="true"
+          autoPlayInterval={3000}
+        >
+          <img src={firstGBMFall} className="sliderimg" alt="pic" />
+          <img src={Lim_Pres} className="sliderimg" alt="pic" />
+          <img src={DanielWin} className="sliderimg" alt="pic" />
+          <img src={InvolvementFair} className="sliderimg" alt="pic" />
+        </AliceCarousel>
+      </div>
+      <div className="MandV">
+        <h1>Mission</h1>
+        <p>
+          To enhance the college experience and professional development of
+          Hispanic/Latino students in the Ying Wu College of Computing (YWCC) by
+          providing resources such as workshops, technical interview prep, and
+          fostering a supportive community. HACCS promotes career advancement,
+          facilitates information exchange, and celebrates cultural diversity.
+        </p>
+
+        <h1>Vision</h1>
+        <p>
+          We are committed to cultivating a strong community, encouraging
+          cultural awareness, and providing resources to empower members as they
+          pursue successful careers in computing. Through collaboration and
+          engagement, we aim to amplify our impact and contribute to a more
+          inclusive and diverse computing field.
+        </p>
+      </div>
+      <div className="contact">
+        <img className="contact-logo" src={logo} alt="HACCS Logo"></img>
+        <h3>Contact Us</h3>
+        <div className="txt_below">
+          <p>njithaccs@gmail.com</p>
+        </div>
+        <h3 className="contact">Follow Us</h3>
+
+        <div className="txt_below">
+          <p> Discord Instagram</p>
+        </div>
+      </div>
+      <div className="footer">
+        <p>NJIT HACCS 2023</p>
+      </div>
+    </>
+  );
 };
 
 export default HomePage;

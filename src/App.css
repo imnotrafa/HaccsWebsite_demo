@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,109 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sliderimg{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.alice-carousel {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  direction: ltr;
+  text-align: center;
+}
+
+.bullets ul
+{
+  list-style-type: none;
+}
+
+.MandV p{
+  margin: auto auto 0px 0px;
+  padding-left:100px;
+  padding-right: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-flex;
+}
+
+.bullets {
+  font-size: 24px;
+  background-color: #fff;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bullets ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bullets li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.bullets li:last-child {
+  margin-right: 0;
+}
+
+.bullets li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.bullets li a:hover {
+  color: #ff6600;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+}
+
+.contact-logo{
+  width:250px;
+  height: 250px;
+  padding: 100px 60px 0px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact h3
+{
+  color: #ff6600;
+}
+
+.contact h3 p{
+}
+
+.haccs {
+  margin-left: 0px;
+  margin-right: auto;
+  padding-right: 55px;
+  padding-left: 10px;
+  vertical-align: middle;
+  justify-content: flex-start;
+  display: flex;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  color: #ff6600;
+}
+
+.txt_below{
+  padding: 8px;
+  align-items: self-end;
 }

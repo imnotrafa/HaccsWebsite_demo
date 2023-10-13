@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
-    <nav>
+    <nav className="bullets">
+      <span class="haccs">NJIT HACCS</span>
       <ul>
         <li>
           <Link to="/">Home</Link>
