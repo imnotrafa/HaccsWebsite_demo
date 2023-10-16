@@ -1,4 +1,3 @@
-import logo from "../HACCS_Logo.png";
 import DanielWin from "../CarouselPics/DanielWin.JPG";
 import Lim_Pres from "../CarouselPics/Lim_Pres.jpg";
 import firstGBMFall from "../CarouselPics/firstGBMFall.jpg";
@@ -55,18 +54,6 @@ const HomePage = () => {
           engagement, we aim to amplify our impact and contribute to a more
           inclusive and diverse computing field.
         </p>
-      </div>
-      <div className="contact">
-        <img className="contact-logo" src={logo} alt="HACCS Logo"></img>
-        <h3>Contact Us</h3>
-        <div className="txt_below">
-          <p>njithaccs@gmail.com</p>
-        </div>
-        <h3 className="contact">Follow Us</h3>
-
-        <div className="txt_below">
-          <p> Discord Instagram</p>
-        </div>
       </div>
     </>
   );

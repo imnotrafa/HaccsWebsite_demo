@@ -4,7 +4,7 @@ import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import Eboard from "./Pages/Eboard";
 import main from "./App.css";
-import footer from "./footer";
+import Footer from "./footer";
 
 function App() {
   return (
@@ -23,7 +23,9 @@ function App() {
           </div>
         </div>
       </BrowserRouter>
-      <div className="footer">{footer}</div>
+      <div className="footer">
+        <Footer />
+      </div>
     </>
   );
 }

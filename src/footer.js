@@ -1,11 +1,12 @@
+import logo from "./HACCS_Logo.png";
 import React from "react";
 import "./footer.css";
 
 const footer = () => {
   return (
     <>
-      <div className="footer">
-        <h8>Copyright © NJIT HACCS 2023</h8>
+      <div className="contact-logo">
+        <img src={logo} alt="HACCS Logo"></img>
       </div>
     </>
   );
