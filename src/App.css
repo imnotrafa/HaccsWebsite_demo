@@ -62,7 +62,7 @@
   list-style-type: none;
 }
 
-.MandV p{
+.Mission_and_Vision p{
   margin: auto auto 0px 0px;
   padding-left:100px;
   padding-right: 100px;
@@ -134,12 +134,12 @@
 }
 
 .haccs {
+  position:static;
   margin-left: 0px;
   margin-right: auto;
   padding-right: 55px;
   padding-left: 10px;
   vertical-align: middle;
-  justify-content: flex-start;
   display: flex;
   font-size: 50px;
   font-family: 'Lato', sans-serif;
