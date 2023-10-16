@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2,0.5fr); /* 3 columns */
+
+}
+
+.mission {
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    place-items: "center";
+    padding: 50px;
+    
+  }
+  
+.vision {
+width: fit-content;
+height: fit-content;
+display: grid;
+place-items: "center";
+padding: 50px;
+}
+  
+  
+  
+.visionText, .missionText {
+height: 200px;
+font-size: 20px;
+border: 10px solid black;
+height:fit-content;
+
+font-family: 'Source Code Pro', monospace;
+font-weight: bold;
+padding:150px,
+
+
+
+}
