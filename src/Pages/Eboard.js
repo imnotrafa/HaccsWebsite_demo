@@ -2,7 +2,6 @@ import React from "react";
 //import Button from "react-bootstrap/Button";
 //import Card from "react-bootstrap/Card";
 import eboard from "./eboard_style.module.css";
-import { linearProgressClasses } from "@mui/material";
 
 // This function gets all values from the folder
 const images = require.context("../Eboard-Photos", true);
