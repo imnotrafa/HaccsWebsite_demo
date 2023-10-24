@@ -51,6 +51,7 @@
 .alice-carousel {
   position: relative;
   width: 100%;
+  height:auto;
   margin: auto;
   direction: ltr;
   text-align: center;
