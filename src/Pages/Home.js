@@ -1,4 +1,3 @@
-import logo from "../HACCS_Logo.png";
 import DanielWin from "../CarouselPics/DanielWin.JPG";
 import Lim_Pres from "../CarouselPics/Lim_Pres.jpg";
 import firstGBMFall from "../CarouselPics/firstGBMFall.jpg";
@@ -54,7 +53,6 @@ const HomePage = () => {
         <div className={home.vision}>
           <h1>Vision</h1>
           <div className={home.visionText}>
-            <img></img>
             <p>
               We are committed to cultivating a strong community, encouraging
               cultural awareness, and providing resources to empower members as
@@ -63,18 +61,6 @@ const HomePage = () => {
               more inclusive and diverse computing field.
             </p>
           </div>
-        </div>
-      </div>
-      <div className="contact">
-        <img className="contact-logo" src={logo} alt="HACCS Logo"></img>
-        <h3>Contact Us</h3>
-        <div className="txt_below">
-          <p>njithaccs@gmail.com</p>
-        </div>
-        <h3 className="contact">Follow Us</h3>
-
-        <div className="txt_below">
-          <p> Discord Instagram</p>
         </div>
       </div>
     </>

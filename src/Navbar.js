@@ -12,7 +12,13 @@ const NavBar = () => {
           <Link to="/Events">Events</Link>
         </li>
         <li>
-          <Link to="/Eboard">Eboard</Link>
+          <Link to="/Eboard">Meet Our E-board</Link>
+        </li>
+        <li>
+          <Link to="/GetInvolved">Get Involved</Link>
+        </li>
+        <li>
+          <Link to="/Contact Us">Contact Us</Link>
         </li>
       </ul>
     </nav>

@@ -3,6 +3,8 @@ import NavBar from "./Navbar";
 import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import Eboard from "./Pages/Eboard";
+import GetInvolved from "./Pages/GetInvolved";
+import ContactUs from "./Pages/ContactUs";
 import main from "./App.css";
 import Footer from "./footer";
 
@@ -18,12 +20,14 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/events" element={<Events />} />
                 <Route path="/eboard" element={<Eboard />} />
+                <Route path="/GetInvolved" element={<GetInvolved />} />
+                <Route path="/ContactUs" element={<ContactUs />} />
               </Routes>
             </div>
           </div>
         </div>
       </BrowserRouter>
-        <Footer />
+      <Footer />
     </>
   );
 }

@@ -1,11 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-
-.contact-logo img
+.indent
 {
-  padding: auto;
-  margin: auto;
-  height: 250px;
-  width: 250px;
-  text-align: left;
+  padding-left: 600px;
+}
+
+.contact-logo {
   display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+
+.contact-logo img {
+  margin: 0;
+  padding: 30px;
+}
+
+.njit-logo
+{
+  width:400px;
+  height:100px;
+}
+
+.HACCS-logo
+{
+  width:300px;
+  height:200px;
+}
+
+.rectangle {
+  height: 250px;
+  width: 500px;
+  background-color: #ff2f00;
+  color: #ff2f00;
+}
+
+.text-container
+{
+  padding-left: 50px;
+
+}
+
+.text-container h1
+{
+  color: #ff6600;
+}
+
+
+.footer-icons {
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  margin-top: 10px; 
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  font-size: 40px;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #ff6600;
 }
