@@ -53,6 +53,7 @@ const footer = () => {
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
+          <p>© 2023 NJIT HACCS</p>
         </div>
       </div>
     </>
