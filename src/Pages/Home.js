@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <>
       <div className="App">
-        <AliceCarousel
+        <AliceCarousel 
           renderPrevButton={() => {
             return (
               <KeyboardDoubleArrowLeftRounded style={{ fontSize: "48px" }} />
