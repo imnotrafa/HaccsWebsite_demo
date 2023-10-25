@@ -45,14 +45,13 @@
 
 .sliderimg{
   width: 100%;
-  height: 60%;
+  /*height: 60%;*/
   object-fit: cover;
 }
 
 .alice-carousel {
-  /*position: relative;*/
+  position: relative;
   width: 100%;
-  height:auto;
   margin: auto;
   direction: ltr;
   text-align: center;
