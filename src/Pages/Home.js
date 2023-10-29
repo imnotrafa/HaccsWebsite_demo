@@ -8,6 +8,8 @@ import KeyboardDoubleArrowLeftRounded from "@mui/icons-material/KeyboardDoubleAr
 import "react-alice-carousel/lib/alice-carousel.css";
 import "../carousel.css";
 import home from "./home_style.module.css";
+import mission from "../Eboard-Photos/mission.png"
+import vision from "../Eboard-Photos/vision.png"
 const HomePage = () => {
   return (
     <>
@@ -37,29 +39,33 @@ const HomePage = () => {
         </AliceCarousel>
       </div>
       <div className={home.info}>
-        <div className={home.mission}>
-          <h1>Mission</h1>
-          <div className={home.missionText}>
-            <p>
-              To enhance the college experience and professional development of
+        <div className={home.icons}>
+            <img src={vision}></img>
+            <img src={mission}></img>
+        </div>
+
+        <div className={home.content}>
+          <div className={home.vision}>
+            <h1>Vision</h1>
+            <div className={home.vision_text}>
+              <p>To enhance the college experience and professional development of
               Hispanic/Latino students in the Ying Wu College of Computing
               (YWCC) by providing resources such as workshops, technical
               interview prep, and fostering a supportive community. HACCS
               promotes career advancement, facilitates information exchange, and
-              celebrates cultural diversity.
-            </p>
+              celebrates cultural diversity.</p>
+            </div>
           </div>
-        </div>
-        <div className={home.vision}>
-          <h1>Vision</h1>
-          <div className={home.visionText}>
-            <p>
-              We are committed to cultivating a strong community, encouraging
+
+          <div className={home.mission}>
+            <h1>Mission</h1>
+            <div className={home.mission_text}>
+              <p>  We are committed to cultivating a strong community, encouraging
               cultural awareness, and providing resources to empower members as
               they pursue successful careers in computing. Through collaboration
               and engagement, we aim to amplify our impact and contribute to a
-              more inclusive and diverse computing field.
-            </p>
+              more inclusive and diverse computing field.</p>
+            </div>
           </div>
         </div>
       </div>
