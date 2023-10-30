@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  top:100px;
+  top:55px;
  
 }
 
@@ -36,17 +36,29 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  right: 300px;
+  right: 100px;
   top: 70px;
   
 }
 
 .vision,
 .mission {
-  width: 100%;
+  width: 900px;
+  height: 200px;
   padding: 30px;
   
 }
+.vision h1, .mission h1{
+  text-align: left;
+}
 p{
   font-family: 'Source Code Pro', monospace;
+  font-size: 14pt;
+  text-align: justify;
+  text-align-last: left ;
+}
+
+.carousel{
+  width: 1700px;
+  height: 1000px;
 }

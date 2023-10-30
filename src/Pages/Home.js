@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     <>
       <div className="App">
-        <AliceCarousel 
+        <AliceCarousel className={home.carousel}
           renderPrevButton={() => {
             return (
               <KeyboardDoubleArrowLeftRounded style={{ fontSize: "48px" }} />
@@ -32,12 +32,14 @@ const HomePage = () => {
           autoPlay="true"
           autoPlayInterval={3000}
         >
-          <img src={firstGBMFall} className="sliderimg" alt="pic" />
-          <img src={Lim_Pres} className="sliderimg" alt="pic" />
-          <img src={DanielWin} className="sliderimg" alt="pic" />
-          <img src={InvolvementFair} className="sliderimg" alt="pic" />
+          <img src={firstGBMFall} className={home.carousel} alt="pic" />
+          <img src={Lim_Pres} className={home.carousel} alt="pic" />
+          <img src={DanielWin} className={home.carousel} alt="pic" />
+          <img src={InvolvementFair} className={home.carousel} alt="pic" />
         </AliceCarousel>
       </div>
+
+
       <div className={home.info}>
         <div className={home.icons}>
             <img src={vision}></img>
