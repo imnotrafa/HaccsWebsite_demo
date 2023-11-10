@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import main from "./App.css";
+import "./Navbar.css";
 const NavBar = () => {
   return (
     <nav className="bullets">
@@ -18,7 +18,7 @@ const NavBar = () => {
           <Link to="/GetInvolved">Get Involved</Link>
         </li>
         <li>
-          <Link to="/Contact Us">Contact Us</Link>
+          <Link to="/ContactUs">Contact Us</Link>
         </li>
       </ul>
     </nav>

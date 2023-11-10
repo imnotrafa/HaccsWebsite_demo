@@ -15,6 +15,7 @@ import "./footer.css";
 const footer = () => {
   return (
     <>
+    <div className="footer-container">
       <div className="contact-logo">
         <div className="indent"> </div>
         <img className="njit-logo" src={njit} alt="NJIT Logo"></img>
@@ -56,6 +57,7 @@ const footer = () => {
           </div>
           <p>© 2023 NJIT HACCS</p>
         </div>
+      </div>
       </div>
     </>
   );
