@@ -32,10 +32,10 @@ const HomePage = () => {
           autoPlay="true"
           autoPlayInterval={3000}
         >
-          <img src={firstGBMFall} className={home.carousel} alt="pic" />
-          <img src={Lim_Pres} className={home.carousel} alt="pic" />
-          <img src={DanielWin} className={home.carousel} alt="pic" />
-          <img src={InvolvementFair} className={home.carousel} alt="pic" />
+          <img src={firstGBMFall} className={home.carousel_img} alt="pic" />
+          <img src={Lim_Pres} className={home.carousel_img} alt="pic" />
+          <img src={DanielWin} className={home.carousel_img} alt="pic" />
+          <img src={InvolvementFair} className={home.carousel_img} alt="pic" />
         </AliceCarousel>
       </div>
 
