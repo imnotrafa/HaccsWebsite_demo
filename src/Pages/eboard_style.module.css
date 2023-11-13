@@ -7,13 +7,10 @@ p.name {
   margin-top: 10px;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0px;
-}
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;}
 
 .main_img {
   border-radius: 10%;
