@@ -14,12 +14,9 @@ const NavBar = () => {
         <li>
           <Link to="/Eboard">Meet Our E-board</Link>
         </li>
-        
-        {/*
-        <li>
+        {/*<li>   Commented until new update
           <Link to="/GetInvolved">Get Involved</Link>
-        </li>
-  */}
+  </li> */}
         <li>
           <Link to="/ContactUs">Contact Us</Link>
         </li>

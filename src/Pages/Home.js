@@ -5,7 +5,7 @@ import InvolvementFair from "../CarouselPics/InvolvementFair.jpg";
 import AliceCarousel from "react-alice-carousel";
 import KeyboardDoubleArrowRightRounded from "@mui/icons-material/KeyboardDoubleArrowRightRounded";
 import KeyboardDoubleArrowLeftRounded from "@mui/icons-material/KeyboardDoubleArrowLeftRounded";
-import "react-alice-carousel/lib/alice-carousel.css";
+//import "react-alice-carousel/lib/alice-carousel.css";
 import "../carousel.css";
 import home from "./home_style.module.css";
 import mission from "../Eboard-Photos/mission.png"
