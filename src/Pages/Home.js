@@ -8,8 +8,8 @@ import KeyboardDoubleArrowLeftRounded from "@mui/icons-material/KeyboardDoubleAr
 import "react-alice-carousel/lib/alice-carousel.css";
 import "../carousel.css";
 import home from "./home_style.module.css";
-import mission from "../Eboard-Photos/mission.png"
-import vision from "../Eboard-Photos/vision.png"
+import mission from "../resources/mission.png"
+import vision from "../resources/vision.png"
 const HomePage = () => {
   return (
     <>
