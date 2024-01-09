@@ -42,8 +42,8 @@ const HomePage = () => {
 
       <div className={home.info}>
         <div className={home.icons}>
-            <img src={vision}></img>
-            <img src={mission}></img>
+            <img src={vision} alt="HACCS Vision Statement"></img>
+            <img src={mission} alt="HACCS Mission Statement"></img>
         </div>
 
         <div className={home.content}>

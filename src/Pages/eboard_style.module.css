@@ -33,10 +33,29 @@ p.name {
   color: #ff6600;
 }
 
-.Position
-{
-  font-size: 50px;
-  font-family: 'Lato', sans-serif;
-  color: #ff6600;
+/* Responsive Styles for screens less than or equal to 375px wide */
+@media only screen and (max-width: 375px) {
+  .p.name {
+    font-size: 18px; /* Smaller font size for mobile */
+  }
 
+  .container {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Align items for vertical layout */
+  }
+
+  .main_img {
+    max-width: 90%; /* Adjust image width to fit screen */
+    height: auto; /* Adjust height automatically */
+    margin-bottom: 20px; /* Add some space below each image */
+  }
+
+  .haccs {
+    font-size: 30px; /* Smaller header font size for mobile */
+  }
+
+  /* Optional: Adjust hover effect or disable for touch devices */
+  .link:hover {
+    transform: scale(1.1);
+  }
 }

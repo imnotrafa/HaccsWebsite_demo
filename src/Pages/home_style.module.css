@@ -62,3 +62,38 @@ p{
   width: 1700px;
   height: 1000px;
 }
+
+@media only screen and (max-width: 375px) {
+  .info {
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    grid-gap: 5px;
+  }
+
+  .icons, .content {
+    grid-column: 1; /* Adjust grid column to take full width */
+    position: static; /* Reset positioning */
+    align-items: center;
+    padding: 10px;
+  }
+
+  .icons img {
+    width: auto; /* Smaller images for smaller screens */
+    height: auto;
+    padding: 15px;
+  }
+
+  .vision, .mission {
+    width: 100%; /* Full width for smaller screens */
+    height: auto; /* Auto height for flexibility */
+    padding: 15px;
+  }
+
+  .carousel {
+    width: 100%; /* Full width for smaller screens */
+    height: auto; /* Adjust height accordingly */
+  }
+
+  p {
+    font-size: 12pt; /* Smaller font size for readability on smaller screens */
+  }
+}
