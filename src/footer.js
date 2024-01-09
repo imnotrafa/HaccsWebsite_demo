@@ -15,6 +15,10 @@ import "./footer.css";
 const footer = () => {
   return (
     <>
+    <head>
+      <title>Footer</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
     <div className="footer-container">
       <div className="contact-logo">
         <div className="indent"> </div>
