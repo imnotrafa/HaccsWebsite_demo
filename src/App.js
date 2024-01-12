@@ -3,9 +3,7 @@ import NavBar from "./Navbar";
 import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import Eboard from "./Pages/Eboard";
-import GetInvolved from "./Pages/GetInvolved";
 import ContactUs from "./Pages/ContactUs";
-import main from "./App.css";
 import Footer from "./footer";
 
 function App() {
