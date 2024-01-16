@@ -39,7 +39,7 @@ const HomePage = () => {
         </AliceCarousel>
       </div>
 
-
+    <div className="container">
       <div className={home.info}>
         <div className={home.icons}>
             <img src={vision} alt="HACCS vision statement"></img>
@@ -71,6 +71,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 };

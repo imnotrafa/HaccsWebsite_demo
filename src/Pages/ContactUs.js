@@ -8,8 +8,7 @@ const ContactUs = () => {
       </div>
 
       <p class="subtitle">
-        Just fill out the form below and we'll get back to you as soon as
-        possible!
+        Just fill out the form below and we'll get back to you as soon as possible!
       </p>
       <ContactForm></ContactForm>
     </>

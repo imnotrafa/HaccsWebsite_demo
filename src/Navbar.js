@@ -3,7 +3,9 @@ import "./Navbar.css";
 const NavBar = () => {
   return (
     <nav className="bullets">
-      <span class="haccs">NJIT HACCS</span>
+    
+    <p className="haccs">NJIT HACCS</p>
+      
       <ul>
         <li>
           <Link to="/">Home</Link>

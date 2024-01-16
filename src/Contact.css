@@ -17,11 +17,14 @@ h1.sub
     padding-left: 20px;
 
 }
-.subtitle
+
+p.subtitle
 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
+  padding-left: 40px;
+  padding-right: 50px;
+  text-align: center;
+  justify-content: center;
+
 
 }
 

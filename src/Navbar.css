@@ -53,3 +53,26 @@
   font-family: 'Lato', sans-serif;
   color: #ff6600;
 }
+
+/* Responsive Styles for iPhone screens */
+@media only screen and (max-width: 480px) {
+  .bullets {
+    display: grid;
+    font-size: 15px; /* Smaller font size for mobile */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: right; /* Center the items for smaller screens */
+  }
+
+  .bullets li {
+    margin-right: 15px; /* Reduce margin between menu items */
+  }
+
+  p.haccs {
+    padding-left: 0px;
+    padding-right: 260px;
+    margin: auto;
+    font-size:22px; /* Smaller header font size for mobile */
+    color: #ff6600;
+  }
+}
