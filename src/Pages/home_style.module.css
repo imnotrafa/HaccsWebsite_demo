@@ -6,81 +6,88 @@
   font-style: normal;
 }
 
-.info {
-  display: grid;
-  grid-template-columns: 1fr 0.5fr;
-  grid-gap: 10px;
-}
 
-.icons {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  top:55px;
- 
-}
-
-.icons img{
-  width: 150px;
-  height: 150px;
-  padding: 70px;
-}
-
-.content {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  right: 100px;
-  top: 70px;
+@media only screen and (min-width: 1200px){
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-gap: 10px;
+  }
   
-}
-
-.vision,
-.mission {
-  width: 900px;
-  height: 200px;
-  padding: 30px;
+  .icons {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:55px;
+   
+  }
   
-}
-.vision h1, .mission h1{
-  text-align: left;
-}
-p{
-  font-family: 'Source Code Pro', monospace;
-  font-size: 14pt;
-  text-align: justify;
-  text-align-last: left ;
+  .icons img{
+    width: 150px;
+    height: 150px;
+    padding: 70px;
+  }
+  
+  .content {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 100px;
+    top: 70px;
+    
+  }
+  
+  .vision,
+  .mission {
+    width: 900px;
+    height: 200px;
+    padding: 30px; 
+  }
+  .vision h1, .mission h1{
+    text-align: left;
+  }
+  p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14pt;
+    text-align: justify;
+    text-align-last: left ;
+  }
+  
+  
+  .carousel{
+    width: 100%;
+    height: 1000px;
+  }
+  
+
 }
 
-.carousel{
-  width: 1700px;
-  height: 1000px;
-}
+
 
 @media only screen and (max-width: 480px) {
-
   .carousel{
     width: 100%;
     height: 300px;
     align-content: center;
   }
 
-div.container div.info div.icons img
-{
-  width: 2px;
-  height: auto;
-
-}
-
-.mission .mission_text
-{
-  font-size: 10px;
-}
+  /* remove icons when on mobile */
+  .icons {
+    display: none;
+    
+  }
+  .vision_text, .mission_text{
+    display: flex;
+    text-align: center;
+    font-size: medium;
+  
+  }
+ 
 
 }

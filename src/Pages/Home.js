@@ -13,7 +13,7 @@ import vision from "../resources/vision.png"
 const HomePage = () => {
   return (
     <>
-      <div className="App">
+      <div className={home.app}>
         <AliceCarousel className={home.carousel}
           renderPrevButton={() => {
             return (
