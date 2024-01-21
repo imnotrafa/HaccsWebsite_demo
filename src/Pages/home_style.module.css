@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-
+/* Desktop view  */
 @media only screen and (min-width: 1200px){
   .info {
     display: grid;
@@ -59,13 +59,25 @@
     text-align-last: left ;
   }
   
-  
+  .app{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
   .carousel{
     width: 100%;
-    height: 1000px;
+    height: 100vh;
+
   }
   
 
+  
+
+}
+/* auto re-size for photos */
+.app img{
+  max-width: 100%;
+  width:auto\9;
 }
 
 
