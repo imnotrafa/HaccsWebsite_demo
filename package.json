@@ -1,5 +1,5 @@
 {
-  "homepage":"http://imnotrafa.github.io/HaccsWebsite_demo",
+  "homepage": "https://imnotrafa.github.io/HaccsWebsite_demo",
   "name": "haccspage",
   "version": "0.1.0",
   "private": true,
@@ -55,6 +55,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.23.2",
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.3.5"
   }
 }
