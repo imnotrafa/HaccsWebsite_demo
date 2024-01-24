@@ -3,7 +3,7 @@ import React from "react";
 //import Card from "react-bootstrap/Card";
 import eboard from "./eboard_style.module.css";
 
-const images = require.context("../Eboard-Photos", true);
+const images = require.context("../Photos_Eboard_2", true);
 
 
 //Sorts and cretaes an image Object that can be returned with URL and Name
