@@ -48,10 +48,8 @@ const ContactForm = () => {
             placeholder="Your Message"
             required
           />
-
-          <button type="submit" class="btn">
-            Submit
-          </button>
+        <div className="submission">
+          <button type="submit" class="btn">Submit</button> </div>
         </form>
         <span id="msg"> </span>
       </div>
